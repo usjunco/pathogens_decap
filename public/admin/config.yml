@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: your-username/your-repo-name # Replace with your GitHub info
+  branch: main
+  base_url: https://your-auth-proxy.workers.dev # We will create this in Step 4
+
+local_backend: true # This allows it to work without the proxy while you are offline
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/posts"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
