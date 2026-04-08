@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-username/your-repo-name # Replace with your GitHub info
+  repo: usjunco/pathogens-decap # Replace with your GitHub info
   branch: main
   base_url: https://your-auth-proxy.workers.dev # We will create this in Step 4
 

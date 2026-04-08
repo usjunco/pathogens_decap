@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/fdsfd/</guid>
       <description>&lt;p&gt;dsfdsf&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>yoyo</title>
+      <link>http://localhost:1313/posts/yoyo/</link>
+      <pubDate>Tue, 07 Apr 2026 17:55:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/yoyo/</guid>
+      <description>&lt;p&gt;this is yoyo&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
