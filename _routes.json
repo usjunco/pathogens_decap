@@ -1,18 +1,10 @@
 {
   "version": 1,
-  "description": "Only run Decap auth functions on /auth and /callback, serve Hugo static files everywhere else",
-  "routes": [
-    {
-      "pattern": "/auth",
-      "function": "auth"
-    },
-    {
-      "pattern": "/callback",
-      "function": "callback"
-    },
-    {
-      "pattern": "/*",
-      "static": true
-    }
+  "include": [
+    "/api/auth",
+    "/api/callback"
+  ],
+  "exclude": [
+    "/*"
   ]
 }
