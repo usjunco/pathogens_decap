@@ -2,7 +2,7 @@ backend:
   name: github
   repo: usjunco/pathogens-decap # Replace with your GitHub info
   branch: main
-  base_url: https://your-auth-proxy.workers.dev # We will create this in Step 4
+  base_url: https://pathogens-decap.usju5296.workers.dev
 
 local_backend: true # This allows it to work without the proxy while you are offline
 
