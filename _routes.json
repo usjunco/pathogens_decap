@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "description": "Only run Decap functions on auth paths, serve Hugo static files everywhere else",
+  "routes": [
+    {
+      "pattern": "/admin/*",
+      "function": "auth"
+    },
+    {
+      "pattern": "/callback",
+      "function": "callback"
+    },
+    {
+      "pattern": "/*",
+      "static": true
+    }
+  ]
+}
